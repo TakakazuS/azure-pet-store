@@ -1,4 +1,4 @@
-(Sample text to kick off GitHub Actions to push docker image into ACR)
+(Sample text to kick off GitHub Actions to push docker image into ACR.)
 
 Pet Store Pet Service is the Back End Java Spring Boot Micro Service used in the Azure Pet Store Reference Guide. It's purpose is to deliver Pet data to consumers.
 
