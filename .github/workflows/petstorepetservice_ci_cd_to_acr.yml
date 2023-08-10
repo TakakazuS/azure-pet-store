@@ -24,9 +24,9 @@ jobs:
       run: echo -n -e "{\"version\":\"${{ github.sha }}\",\"date\":\"$(date '+%m-%d-%Y %H:%M:%S')\"}" > petstore/petstorepetservice/src/main/resources/version.json
     - run: cat petstore/petstorepetservice/src/main/resources/version.json
     - uses: actions/setup-java@v2
-      name: Building Pet Store Pet Service with Java 1.8
+      name: Building Pet Store Pet Service with Java 8
       with:
-        java-version: '1.8'
+        java-version: '8'
         distribution: 'adopt'
     - name: Run Maven build
       run: mvn -f petstore/petstorepetservice/pom.xml --batch-mode --update-snapshots verify
