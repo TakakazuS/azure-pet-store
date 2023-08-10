@@ -1,3 +1,5 @@
+(Sample text to kick off GitHub Actions to push docker image into ACR.)
+
 Pet Store Pet Service is the Back End Java Spring Boot Micro Service used in the Azure Pet Store Reference Guide. It's purpose is to manage Pet Store Orders.
 
 The project/API Scaffolding was generated using Swagger Codegen https://github.com/swagger-api/swagger-codegen and the following Swagger schema https://raw.githubusercontent.com/chtrembl/azure-cloud/main/petstore/petstoreorderservice/petstoreorderservice.json For the purposes of this demo, the Pet data was implemented as an in memory DB populated from the application.yml.
